@@ -406,7 +406,7 @@ app.get('/api/search', async (req, res) => {
 });
 
 // ================ fetch the trialer for each anime on youtube ================ 
-const API_KEY = 'AIzaSyB5MmEzOTmailkvY3a3zFqzyUzMU8p9Czc';
+const API_KEY = ''; // assign youtube api key here
 
 app.get("/youtubeTrailer/:animeName", (req, res) => {
 
